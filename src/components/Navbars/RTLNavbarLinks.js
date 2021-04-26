@@ -112,24 +112,6 @@ export default function RTLNavbarLinks() {
                       onClick={handleClose}
                       className={classes.dropdownItem}
                     >
-                      محمدرضا به ایمیل شما پاسخ داد
-                    </MenuItem>
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      شما ۵ وظیفه جدید دارید
-                    </MenuItem>
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      از حالا شما با علیرضا دوست هستید
-                    </MenuItem>
-                    <MenuItem
-                      onClick={handleClose}
-                      className={classes.dropdownItem}
-                    >
                       اعلان دیگر
                     </MenuItem>
                     <MenuItem

@@ -34,7 +34,7 @@ const switchRoutes = (
       }
       return null;
     })}
-    <Redirect from="/rtl" to="/rtl/rtl-page" />
+    <Redirect from="/rtl" to="/rtl/home-page" />
   </Switch>
 );
 
@@ -96,7 +96,7 @@ export default function RTL({ ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"الإبداعية تيم"}
+        logoText={"پامچال یک"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
@@ -121,7 +121,7 @@ export default function RTL({ ...rest }) {
           <div className={classes.map}>{switchRoutes}</div>
         )}
         {getRoute() ? <Footer /> : null}
-        <FixedPlugin
+        {/* <FixedPlugin
           handleImageClick={handleImageClick}
           handleColorClick={handleColorClick}
           bgColor={color}
@@ -129,7 +129,7 @@ export default function RTL({ ...rest }) {
           handleFixedClick={handleFixedClick}
           fixedClasses={fixedClasses}
           rtlActive
-        />
+        /> */}
       </div>
     </div>
   );
